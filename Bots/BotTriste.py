@@ -1,14 +1,15 @@
 from Bots.Bot import Bot
 
 
-class BotZangado(Bot):
+class BotTriste(Bot):
 
   def __init__(self, nome):
+
     super().__init__(nome)
 
-    boas_vindas = """aaa"""
-    apresentacao = """bbb"""
-    despedida = """ccc"""
+    boas_vindas = """oi..."""
+    apresentacao = """sde"""
+    despedida = """adeus"""
 
     self.adicionar_comando(apresentacao, "apresentacao")
     self.adicionar_comando(boas_vindas, "boas-vindas")
